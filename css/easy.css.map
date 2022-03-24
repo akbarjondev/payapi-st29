@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/home/easy.scss"
+    ],
+    "names": [],
+    "file": "easy.css"
+}
