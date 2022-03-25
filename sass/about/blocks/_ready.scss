@@ -1,0 +1,191 @@
+.ready {
+    margin-bottom: 96px;
+     &__container {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+     }
+ 
+     &__head {
+         font-family: 'DM Serif Display';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 48px;
+         line-height: 56px;
+         color:#36536B;
+     }
+ 
+     // &__right {
+      
+     // }
+ 
+     &__input {
+         font-family: 'Public Sans';
+         font-style: normal;
+         font-weight: 700;
+         font-size: 15px;
+         line-height: 18px;
+         color:#36536B;
+         cursor: pointer;
+         border: none;
+         border-radius: 24px;
+         padding: {
+             top: 16px;
+             bottom: 16px;
+             left: 27px;
+             right: 115px;
+         }
+     }
+ 
+     &__btn {
+         font-family: 'Public Sans';
+         font-style: normal;
+         font-weight: 700;
+         font-size: 15px;
+         line-height: 18px;
+         cursor: pointer;
+         transform:translateX(-60px) ;
+         color: #FBFCFE;
+         background-color:#BA4270;
+         border: none;
+         border-radius: 24px;
+         padding: {
+             top: 16px;
+             bottom: 14px;
+             left: 26px;
+             right: 24px;
+         }
+     }
+ }
+ 
+ @media only screen and (max-width:769px) {
+     .ready {
+ 
+         &__container {
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             justify-content: space-between;
+         }
+     
+         &__head {
+             font-family: 'DM Serif Display';
+             font-style: normal;
+             font-weight: 400;
+             font-size: 48px;
+             line-height: 56px;
+             color:#36536B;
+             margin-bottom: 40px;
+         }
+     
+         // &__right {
+          
+         // }
+     
+         &__input {
+             font-family: 'Public Sans';
+             font-style: normal;
+             font-weight: 700;
+             font-size: 15px;
+             line-height: 18px;
+             color:#36536B;
+             cursor: pointer;
+             border: none;
+             border-radius: 24px;
+             padding: {
+                 top: 16px;
+                 bottom: 16px;
+                 left: 27px;
+                 right: 115px;
+             }
+         }
+     
+         &__btn {
+             font-family: 'Public Sans';
+             font-style: normal;
+             font-weight: 700;
+             font-size: 15px;
+             line-height: 18px;
+             cursor: pointer;
+             transform:translateX(-60px) ;
+             color: #FBFCFE;
+             background-color:#BA4270;
+             border: none;
+             border-radius: 24px;
+             padding: {
+                 top: 16px;
+                 bottom: 14px;
+                 left: 26px;
+                 right: 24px;
+             }
+         }
+     }
+     
+ }
+ 
+ @media only screen and (max-width:376px) {
+     .ready {
+ 
+         &__container {
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             justify-content: space-between;
+         }
+     
+         &__head {
+             font-family: 'DM Serif Display';
+             font-style: normal;
+             font-weight: 400;
+             font-size: 32px;
+             line-height: 36px;
+             color:#36536B;
+             margin-bottom: 32px;
+         }
+     
+         &__right {
+          display: flex;
+          flex-direction: column;
+          gap: 16px;
+         }
+     
+         &__input {
+             font-family: 'Public Sans';
+             font-style: normal;
+             font-weight: 700;
+             font-size: 15px;
+             line-height: 18px;
+             color:  #36536B;
+             cursor: pointer;
+             border: none;
+             border-radius: 24px;
+             padding: {
+                 top: 16px;
+                 bottom: 16px;
+                 left: 27px;
+                 right: 158px;
+             }
+         }
+     
+         &__btn {
+             font-family: 'Public Sans';
+             font-style: normal;
+             font-weight: 700;
+             font-size: 15px;
+             line-height: 18px;
+             cursor: pointer;
+             transform:translateX(0px) ;
+             color: #FBFCFE;
+             background-color:#BA4270;
+             border: none;
+             border-radius: 24px;
+             padding: {
+                 top: 16px;
+                 bottom: 14px;
+                 left: 50px;
+                 right: 46px;
+             }
+         }
+     }
+     
+ }
