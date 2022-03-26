@@ -2,6 +2,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -11,10 +13,18 @@ body {
 }
 
 .container {
-  max-width: 1240px;
-  padding-left: 20px;
-  padding-right: 20px;
+  max-width: 1440px;
+  padding-left: 165px;
+  padding-right: 165px;
   margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 .visually-hidden {
